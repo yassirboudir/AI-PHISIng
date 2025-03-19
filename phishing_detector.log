@@ -1,0 +1,84 @@
+2025-03-17 21:24:11,670 - PhishingDetector - INFO - Starting PhishingDetector application
+2025-03-17 21:24:11,670 - PhishingDetector - INFO - Initializing PhishingDetector application
+2025-03-17 21:24:11,794 - PhishingDetector - INFO - UI setup complete
+2025-03-17 21:24:11,794 - PhishingDetector - INFO - Starting application main loop
+2025-03-17 21:24:36,484 - PhishingDetector - INFO - Attempting to connect to email
+2025-03-17 21:24:36,485 - PhishingDetector - INFO - Connecting to imap.gmail.com:993 as rikiestr00@gmail.com
+2025-03-17 21:24:36,629 - PhishingDetector - INFO - Successfully connected to imap.gmail.com:993
+2025-03-17 21:24:36,629 - PhishingDetector - INFO - OpenAI API key set
+2025-03-17 21:24:36,684 - PhishingDetector - INFO - Creating IMAP4_SSL connection to imap.gmail.com:993
+2025-03-17 21:24:37,597 - PhishingDetector - INFO - IMAP4_SSL connection established
+2025-03-17 21:24:37,597 - PhishingDetector - INFO - Attempting login for rikiestr00@gmail.com
+2025-03-17 21:24:38,558 - PhishingDetector - ERROR - IMAP login failed: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-03-17 21:24:38,559 - PhishingDetector - ERROR - Authentication failed. For Gmail accounts, make sure to:
+2025-03-17 21:24:38,559 - PhishingDetector - ERROR - 1. Check if your email and password are correct
+2025-03-17 21:24:38,559 - PhishingDetector - ERROR - 2. Enable 'Less secure app access' in your Google account (though this option is being deprecated)
+2025-03-17 21:24:38,560 - PhishingDetector - ERROR - 3. Or create an App Password if you have 2FA enabled
+2025-03-17 21:24:38,560 - PhishingDetector - ERROR - 4. Check if your account has captcha requirements: https://accounts.google.com/DisplayUnlockCaptcha
+2025-03-17 21:24:38,560 - PhishingDetector - ERROR - Failed to connect: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+Traceback (most recent call last):
+  File "f:\AI PHISIng\Phising.py", line 222, in connect_to_email
+    self.imap_connection.login(self.email_account, self.email_password)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\imaplib.py", line 612, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-03-17 21:39:49,254 - PhishingDetector - INFO - Attempting to connect to email
+2025-03-17 21:39:49,254 - PhishingDetector - INFO - Connecting to imap.gmail.com:993 as rikiestr00@gmail.com
+2025-03-17 21:39:49,335 - PhishingDetector - INFO - Successfully connected to imap.gmail.com:993
+2025-03-17 21:39:49,335 - PhishingDetector - INFO - OpenAI API key set
+2025-03-17 21:39:49,336 - PhishingDetector - INFO - Creating IMAP4_SSL connection to imap.gmail.com:993
+2025-03-17 21:39:49,532 - PhishingDetector - INFO - IMAP4_SSL connection established
+2025-03-17 21:39:49,533 - PhishingDetector - INFO - Attempting login for rikiestr00@gmail.com
+2025-03-17 21:39:50,586 - PhishingDetector - ERROR - IMAP login failed: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-03-17 21:39:54,530 - PhishingDetector - ERROR - Authentication failed. For Gmail accounts, make sure to:
+2025-03-17 21:39:54,530 - PhishingDetector - ERROR - 1. Check if your email and password are correct
+2025-03-17 21:39:54,531 - PhishingDetector - ERROR - 2. Enable 'Less secure app access' in your Google account (though this option is being deprecated)
+2025-03-17 21:39:54,531 - PhishingDetector - ERROR - 3. Or create an App Password if you have 2FA enabled
+2025-03-17 21:39:54,531 - PhishingDetector - ERROR - 4. Check if your account has captcha requirements: https://accounts.google.com/DisplayUnlockCaptcha
+2025-03-17 21:39:54,532 - PhishingDetector - ERROR - Failed to connect: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+Traceback (most recent call last):
+  File "f:\AI PHISIng\Phising.py", line 222, in connect_to_email
+    self.imap_connection.login(self.email_account, self.email_password)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\imaplib.py", line 612, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-03-17 21:40:03,982 - PhishingDetector - INFO - Attempting to connect to email
+2025-03-17 21:40:03,982 - PhishingDetector - INFO - Connecting to imap.gmail.com:993 as yassirboudir64@gmail.com
+2025-03-17 21:40:04,050 - PhishingDetector - INFO - Successfully connected to imap.gmail.com:993
+2025-03-17 21:40:04,050 - PhishingDetector - INFO - OpenAI API key set
+2025-03-17 21:40:04,051 - PhishingDetector - INFO - Creating IMAP4_SSL connection to imap.gmail.com:993
+2025-03-17 21:40:04,239 - PhishingDetector - INFO - IMAP4_SSL connection established
+2025-03-17 21:40:04,239 - PhishingDetector - INFO - Attempting login for yassirboudir64@gmail.com
+2025-03-17 21:40:04,435 - PhishingDetector - INFO - Login successful
+2025-03-17 21:40:04,491 - PhishingDetector - INFO - Available mailboxes: OK
+2025-03-17 21:40:04,491 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren) "/" "INBOX"'
+2025-03-17 21:40:04,491 - PhishingDetector - INFO - Mailbox: b'(\\HasChildren \\Noselect) "/" "[Gmail]"'
+2025-03-17 21:40:04,492 - PhishingDetector - INFO - Mailbox: b'(\\All \\HasNoChildren) "/" "[Gmail]/All Mail"'
+2025-03-17 21:40:04,492 - PhishingDetector - INFO - Mailbox: b'(\\Drafts \\HasNoChildren) "/" "[Gmail]/Drafts"'
+2025-03-17 21:40:04,492 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Important) "/" "[Gmail]/Important"'
+2025-03-17 21:40:04,492 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Sent) "/" "[Gmail]/Sent Mail"'
+2025-03-17 21:40:04,493 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Junk) "/" "[Gmail]/Spam"'
+2025-03-17 21:40:04,493 - PhishingDetector - INFO - Mailbox: b'(\\Flagged \\HasNoChildren) "/" "[Gmail]/Starred"'
+2025-03-17 21:40:04,493 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Trash) "/" "[Gmail]/Trash"'
+2025-03-17 21:43:22,759 - PhishingDetector - INFO - Starting PhishingDetector application
+2025-03-17 21:43:22,759 - PhishingDetector - INFO - Initializing PhishingDetector application
+2025-03-17 21:43:22,879 - PhishingDetector - INFO - UI setup complete
+2025-03-17 21:43:22,880 - PhishingDetector - INFO - Starting application main loop
+2025-03-17 21:43:40,834 - PhishingDetector - INFO - Attempting to connect to email
+2025-03-17 21:43:40,835 - PhishingDetector - INFO - Connecting to imap.gmail.com:993 as yassirboudir64@gmail.com
+2025-03-17 21:43:40,920 - PhishingDetector - INFO - Successfully connected to imap.gmail.com:993
+2025-03-17 21:43:40,920 - PhishingDetector - INFO - OpenAI API key set
+2025-03-17 21:43:40,921 - PhishingDetector - INFO - Creating IMAP4_SSL connection to imap.gmail.com:993
+2025-03-17 21:43:41,113 - PhishingDetector - INFO - IMAP4_SSL connection established
+2025-03-17 21:43:41,113 - PhishingDetector - INFO - Attempting login for yassirboudir64@gmail.com
+2025-03-17 21:43:41,281 - PhishingDetector - INFO - Login successful
+2025-03-17 21:43:41,340 - PhishingDetector - INFO - Available mailboxes: OK
+2025-03-17 21:43:41,701 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren) "/" "INBOX"'
+2025-03-17 21:43:41,701 - PhishingDetector - INFO - Mailbox: b'(\\HasChildren \\Noselect) "/" "[Gmail]"'
+2025-03-17 21:43:41,701 - PhishingDetector - INFO - Mailbox: b'(\\All \\HasNoChildren) "/" "[Gmail]/All Mail"'
+2025-03-17 21:43:41,702 - PhishingDetector - INFO - Mailbox: b'(\\Drafts \\HasNoChildren) "/" "[Gmail]/Drafts"'
+2025-03-17 21:43:41,702 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Important) "/" "[Gmail]/Important"'
+2025-03-17 21:43:41,702 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Sent) "/" "[Gmail]/Sent Mail"'
+2025-03-17 21:43:41,703 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Junk) "/" "[Gmail]/Spam"'
+2025-03-17 21:43:41,703 - PhishingDetector - INFO - Mailbox: b'(\\Flagged \\HasNoChildren) "/" "[Gmail]/Starred"'
+2025-03-17 21:43:41,703 - PhishingDetector - INFO - Mailbox: b'(\\HasNoChildren \\Trash) "/" "[Gmail]/Trash"'
